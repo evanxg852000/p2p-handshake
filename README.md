@@ -5,6 +5,9 @@ A rust implementation of a handshake protocol with an [Ergo](https://ergoplatfor
 
 ## How to run
 
+> [!NOTE]  
+> The following was tested on Ubuntu 20.04, other platforms might work but they have not been tested using these steps.
+
 ### Running an Ergo node
 You first need to have a target node against which you want to connect and perform a handshake. it can be a local node or a publicly known node.
 
@@ -42,6 +45,6 @@ cargo build --release
 
 ## References
 
-Protocol docs: https://docs.ergoplatform.com/dev/p2p/p2p-handshake/
-Node setup: https://docs.ergoplatform.com/node/install/manual/
+- Protocol docs: https://docs.ergoplatform.com/dev/p2p/p2p-handshake/
+- Node setup: https://docs.ergoplatform.com/node/install/manual/
 
